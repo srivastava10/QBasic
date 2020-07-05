@@ -1,0 +1,49 @@
+print "1: Grand Central Terminal, Park Avenue, New York is the world's "
+print "a) Largest railway station"
+print "b) Highest railway station"
+print "c) Longest railway station"
+print "d) None Of The Above"
+pause 1
+input "Answer is: ", a$
+pause 1
+if a$="a" then m=5
+if a$="b" then m=0
+if a$="c" then m=0
+if a$="d" then m=0
+if a$="a" then print "Correct and Your Points are:";
+if a$="a" then print m
+if a$="b" then print "Incorrect and Your Poins are:";
+if a$="b" then print m
+if a$="c" then print "Incorrect and Your Points are:";
+if a$="c" then print m
+if a$="d" then print "Incorrect and Your Points are:";
+if a$="d" then print m
+print
+print "2:Entomology is the science that studies"
+print "a) Behaviour Of Human Beings"
+print "b) Insects"
+print "c) The Formation Of Rocks"
+print "d) None Of The Above"
+pause 1
+input "Answer is: ", b$
+pause 1
+if b$="a" then h=0
+if b$="b" then h=5
+if b$="c" then h=0
+if b$="d" then h=0
+if b$="a" then print "Incorrect and Your Points are:";
+if b$="a" then print h
+if b$="b" then print "Correct and Your Points are:";
+if b$="b" then print h
+if b$="c" then print "Incorrect and Your Points are:";
+if b$="c" then print h
+if b$="d" then print "Incorrect and Your Points are:";
+if b$="d" then print h
+print
+l=m+h
+Print "The Quiz Has Ended"
+pause 1
+print "Your Score is : ";
+print l
+pause 2
+Print ".............................................Ok! Bye..........................................."

@@ -1,0 +1,13 @@
+cls
+input "Do You Want To Know Whether Your Number Is Even Or Odd  (The Program will stop if your answer is no)  :" , q$
+if q$="Yes" then print "Ok Lets Start"
+if q$="yes" then print "Ok Lets Start"
+if q$="No" then end
+if q$="no" then end
+pause 1
+input "Enter Your Number Here :" , a
+b=a%2
+pause 1
+if b=0 then print "Your Number Is Even"
+if b>0 then print "Your Number is Odd"
+end

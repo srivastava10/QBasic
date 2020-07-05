@@ -1,0 +1,14 @@
+clg
+color yellow
+rect 0,0,255,255
+color black
+circle 200,80,50
+circle 60,80,50
+rect 40,140,200,100
+color white
+circle 200,80,20
+circle 60,80,20
+rect 50,150,180,80
+print "Hello Friends "
+print "I am Shocked!!!!!!!!!"
+print "This is a shocked face"

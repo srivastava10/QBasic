@@ -1,0 +1,99 @@
+cls
+Input "How many times do you want to run this program - " , s
+pause 1
+let cent=0
+let jan=0
+let feb=3
+let mar=3
+let apr=6
+let may=1
+let jun=4
+let jul=6
+let aug=2
+let sep=5
+let oct=0
+let nov=3
+let dec=5
+let mon=0
+let din=0
+let sdin=0
+for i = 1 to s
+	input "Enter The Date(Eg-4)" , a
+	pause 1
+	input "Enter The Month(Eg-4 is for April)" , b
+	pause 1
+	input "Enter The Year(Eg- 17 )" , c
+	pause 1
+	input "Enter The Century(Eg-20 is for 1900-1999)" , d
+	pause 1
+	if d =  17 then
+		cent = 6
+	end if
+	if d=18 then
+		cent=4
+	end if
+	if d=19 then
+		cent=2
+	end if
+	if d=20 then
+		cent=0
+	end if
+	if d=21 then
+		cent=6
+	end if
+	if b=1 then
+		mon=jan
+	end if
+	if b=2 then
+		mon=feb
+	end if
+	if b=3 then
+		mon=mar
+	end if
+	if b=4 then
+		mon=apr
+	end if
+	if b=5 then
+		mon=jun
+	end if
+	if b=6 then
+		mon=jul
+	end if
+	if b=7 then
+		mon=aug
+	end if
+	if b=8 then
+		mon=sep
+	end if
+	if b=9 then
+		mon=oct
+	end if
+	if b=10 then
+		mon=nov
+	end if
+	if b=11 then
+		mon=dec
+	end if
+	k=c/4
+	din=a+mon+c+k+cent
+	sdin=din%7
+	if sdin=0 then print "The Date You Entered Was A Sunday"
+
+	if sdin=1 then print "The Date You Entered Was A Monday"
+
+	if sdin=2 then print "The Date You Entered Was A Tuesday"
+
+	if sdin=3 then print "The Date You Entered Was A Wednesday"
+
+	if sdin=4 then print "The Date You Entered Was A Thursday"
+
+	if sdin=5 then print "The Date You Entered Was A Friday"
+
+	if sdin=6 then print "The Date You Entered Was A Saturday"
+	print ""
+	print "____________________________________________"
+	print ""
+next i
+end
+
+

@@ -1,0 +1,46 @@
+print "Rules Are Simple"
+
+pause 1
+
+print "There Will Be 21 Sticks , You can pick up 1 to 4 sticks at a time"
+
+print "If 1 stick is left with you I will win and the game will end"
+
+pause 1
+
+print "To Play The 21 Sticks game type 21"
+
+input a
+
+x = 5
+
+k$ ="Remaining Sticks are  "
+
+for i = 1 to 4 step 1
+
+a=a-x
+pause 1
+
+Input "Your Chance     " , s
+
+print "I pick Up sticks =   "
+print 5-s;
+print k
+
+print a
+next i
+
+print ""
+
+print "GAME OVER"
+
+Print  ""
+pause 1
+
+print "BETTER LUCK NEXT TIME"
+
+pause 0.5
+
+print "................................................................................................"
+
+end
